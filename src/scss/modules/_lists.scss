@@ -1,0 +1,28 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 23px;
+
+  li {
+    color: $white;
+    &:first-child {
+      color: $grey;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding-bottom: 15px;
+    }
+  }
+}
+
+
+.main {
+  li {
+    font-size: 24px;
+    line-height: 40px;
+    &:first-child {
+      font-size: 14px;
+      line-height: 23px;
+    }
+  }
+}

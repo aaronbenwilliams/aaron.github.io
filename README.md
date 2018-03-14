@@ -4,7 +4,7 @@ Home of Aaron Williams, Welsh digital designer based in Europe that works for [C
 
 ## Social Media Links
 
-* wagwan@aaronwilliams.designer
+* wagwan@aaronwilliams.design
 * [Behance](http://behance.com/giantsheep)
 * [Twitter](https://twitter.com/aaronthesheep)
 * [Dribbble](https://dribbble.com/aaronthesheep)
