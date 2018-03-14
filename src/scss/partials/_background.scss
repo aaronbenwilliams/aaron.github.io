@@ -1,36 +1,19 @@
 body {
-  height: 100%;
-  width: 100%;
-  left:0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  background: linear-gradient(124deg, #DB6450, #BF5858, #64B6BA, #86598A);
-  background-size: 1800% 1800%;
+  background: red;
+  -webkit-animation: color_morph 20s infinite linear;
+	        animation: color_morph 20s infinite linear;
+}
 
-  -webkit-animation: rainbow 70s ease infinite;
-  -z-animation: rainbow 70s ease infinite;
-  -o-animation: rainbow 70s ease infinite;
-  animation: rainbow 70s ease infinite;}
+@-webkit-keyframes color_morph {
+  0% { background-color: #B5464E; }
+  33% { background-color: #447C69; }
+  66% { background-color: #61899C; }
+  100% { background-color: #B5464E; }
+}
 
-@-webkit-keyframes rainbow {
-  0%{background-position:0% 82%}
-  50%{background-position:100% 19%}
-  100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-  0%{background-position:0% 82%}
-  50%{background-position:100% 19%}
-  100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-  0%{background-position:0% 82%}
-  50%{background-position:100% 19%}
-  100%{background-position:0% 82%}
-}
-@keyframes rainbow {
-  0%{background-position:0% 82%}
-  50%{background-position:100% 19%}
-  100%{background-position:0% 82%}
+@keyframes color_morph {
+  0% { background-color: #B5464E; }
+  33% { background-color: #447C69; }
+  66% { background-color: #61899C; }
+  100% { background-color: #B5464E; }
 }
